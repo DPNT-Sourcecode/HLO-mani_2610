@@ -1,10 +1,10 @@
 package befaster.solutions.HLO
 
-import befaster.solutions.HLO.Hello
+import org.scalatest.{FlatSpec, Matchers}
 
 class HelloTest extends FlatSpec with Matchers {
 
   it should "print hello world" in {
-    Hello.hello("") shouldBe "Hello, World"
+    Hello.hello("") shouldBe "Hello, World!"
   }
 }
